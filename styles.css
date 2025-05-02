@@ -57,6 +57,10 @@ body {
   max-width: 700px;
   margin: 0 auto;
   animation: fadeInUp 1.5s ease-out;
+  background-image: url('./assets/bg-pattern.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .intro .avatar {
