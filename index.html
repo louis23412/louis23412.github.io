@@ -3,43 +3,41 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <title>Backend Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-  <header>
-    <div class="hero">
-      <h1>Your Name</h1>
-      <p>Creative Developer · UI/UX Designer · Problem Solver</p>
-    </div>
-  </header>
+  <section class="hero">
+    <img src="avatar.png" alt="Avatar" class="avatar"/>
+    <h1>Hi, I'm a Backend Developer</h1>
+    <p>I build reliable and scalable backend systems.</p>
+  </section>
 
-  <main class="portfolio">
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I'm passionate about clean code, efficient APIs, and robust backend architecture.</p>
+  </section>
+
+  <section class="projects">
     <h2>Projects</h2>
-    <div class="projects-grid">
-      <div class="project-card fade-in">
-        <h3>Portfolio Website</h3>
-        <p>A modern personal site with HTML, CSS, and smooth animations.</p>
-        <a href="#">View Project →</a>
-      </div>
-
-      <div class="project-card fade-in">
-        <h3>Coming Soon</h3>
-        <p>This is a placeholder for a future creative project or startup idea.</p>
-        <a href="#">Stay Tuned</a>
-      </div>
-
-      <div class="project-card fade-in">
-        <h3>App UI Design</h3>
-        <p>Mockup and prototype of a mobile app, focused on user experience.</p>
-        <a href="#">See More</a>
-      </div>
+    <div class="project-list">
+      <!-- Projects injected via JS -->
     </div>
-  </main>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-links">
+      <a href="https://github.com/yourusername" target="_blank" class="contact-button">GitHub</a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank" class="contact-button">LinkedIn</a>
+      <a href="mailto:youremail@example.com" class="contact-button">Email</a>
+    </div>
+  </section>
 
   <footer>
-    <p>&copy; 2025 Your Name · Built with 💻 & 🎨</p>
+    &copy; 2025 Backend Developer. All rights reserved.
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
