@@ -26,8 +26,8 @@ body {
   height: 120px;
   border-radius: 50%;
   margin-bottom: 1rem;
-  border: 3px solid #00d4ff;
-  box-shadow: 0 0 10px rgba(0, 212, 255, 0.6);
+  border: 3px solid #ffa726;
+  box-shadow: 0 0 10px rgba(255, 167, 38, 0.6);
   animation: float 6s ease-in-out infinite;
 }
 
@@ -55,7 +55,7 @@ body {
 }
 
 .about h2 {
-  color: #00d4ff;
+  color: #ffa726;
   margin-bottom: 1rem;
   font-size: 1.75rem;
 }
@@ -76,7 +76,7 @@ body {
 .projects h2 {
   text-align: center;
   font-size: 2rem;
-  color: #00d4ff;
+  color: #ffa726;
   margin-bottom: 2rem;
 }
 
@@ -104,7 +104,7 @@ body {
   left: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle at center, rgba(0,212,255,0.1), transparent);
+  background: radial-gradient(circle at center, rgba(255,167,38,0.1), transparent);
   transform: rotate(25deg);
   animation: shimmer 8s infinite linear;
   pointer-events: none;
@@ -112,7 +112,7 @@ body {
 
 .project:hover {
   transform: translateY(-8px);
-  box-shadow: 0 15px 40px rgba(0, 212, 255, 0.3);
+  box-shadow: 0 15px 40px rgba(255, 167, 38, 0.3);
 }
 
 .project img {
@@ -122,7 +122,7 @@ body {
 }
 
 .project h3 {
-  color: #00d4ff;
+  color: #ffa726;
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
 }
@@ -134,14 +134,14 @@ body {
 }
 
 .project a {
-  color: #00d4ff;
+  color: #ffa726;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.2s ease;
 }
 
 .project a:hover {
-  color: #66e0ff;
+  color: #ffb74d;
 }
 
 .contact {
@@ -157,7 +157,7 @@ body {
 }
 
 .contact h2 {
-  color: #00d4ff;
+  color: #ffa726;
   margin-bottom: 1rem;
   font-size: 1.75rem;
 }
@@ -172,16 +172,16 @@ body {
 .contact-button {
   padding: 0.75rem 1.5rem;
   background-color: #1f2125;
-  color: #00d4ff;
+  color: #ffa726;
   font-weight: 600;
-  border: 2px solid #00d4ff;
+  border: 2px solid #ffa726;
   border-radius: 8px;
   text-decoration: none;
   transition: background 0.3s ease, color 0.3s ease;
 }
 
 .contact-button:hover {
-  background-color: #00d4ff;
+  background-color: #ffa726;
   color: #0f0f10;
 }
 
